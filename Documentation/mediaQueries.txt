@@ -1,0 +1,89 @@
+/* MEDIA QUERIES */
+@media only screen and (min-width: 480px) {
+  #left, #right {
+    	float: left;
+    	width: 50%; 
+    } 
+}
+/* MEDIA QUERIES FOR GALAXY-S5 */
+@media (min-width: 360px) and (max-width: 639px){
+    main #temperature{
+        font-size: 4rem;
+        margin-top: 1rem;
+    }
+    main #weather{
+        margin-top: 1rem;
+    }
+    #wrapper{
+        padding-bottom: 50px;
+    }
+}
+/* MEDIA QUERIES FOR IPHONE-6/7/8 */
+@media only screen and (min-device-width : 375px) and (max-device-width : 667px){
+    main #weather{
+        margin-top: 1.3rem;
+    }
+    main #temperature{
+        font-size: 4.5rem;
+        margin-top: 1rem;
+    }
+    #wrapper{
+        padding-bottom: 70px;
+    }
+}
+/* MEDIA QUERIES FOR IPHONE-6/7/8 PLUS*/
+@media only screen and (min-device-width : 414px) and (max-device-width : 736px){
+    main #weather{
+        margin-top: 1.5rem;
+    }
+    main #temperature{
+        font-size: 5rem;
+        margin-top: 1.5rem;
+    }
+    #wrapper{
+        padding-bottom: 120px;
+    }
+}
+/* MEDIA QUERIES FOR IPHONE-X*/
+@media only screen and (min-device-width : 375px) and (max-device-width : 812px)and (-webkit-device-pixel-ratio : 3){
+    main #weather{
+        margin-top: 2.5rem;
+    }
+    main #temperature{
+        font-size: 5.5rem;
+        margin-top: 1.7rem;
+    }
+    main #description{
+        margin-top: 1.7rem;
+    }
+    #wrapper{
+        padding-bottom: 140px;
+    }
+}
+/* MEDIA QUERIES FOR IPADS */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape){
+    #wrapper{
+        min-width: 1024px;
+        height: 768px;
+        margin-top: 0px;
+    }
+}
+/* MEDIA QUERIES FOR LAPTOPS */
+
+@media only screen and (min-width: 800px) {
+    div#wrapper {
+        max-width: 800px;
+        margin: 3rem auto 0 auto;
+        height: auto;
+        border: 1px solid #666;
+        box-shadow: 5px 5px 10px #999; 
+    }
+
+    footer {
+        clear: both;
+        position: relative; 
+        margin-bottom: 0;
+    } 
+}
+
+*/

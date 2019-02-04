@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+
+		<meta charset="utf-8">
+		<title>World Weather Channel</title>
+		<link rel="icon" href="images/weatherLogo.png" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<!-- GOOGLE FONTS -->
+		<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+
+		<!-- FONT AWESOME-->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+
+		<!-- STYLE SHEETS -->
+		<link rel="stylesheet" type="text/css" href="CSS/style.css">
+
+	</head>
+
+	<body>
+        <div id="imageBackground" class="imageConatiner" style="background-image: url('images/weather.jpg'); background-repeat:no-repeat; background-position: center; background-size: cover; height: 100vh;">
+		  <div id="wrapper">
+
+			<header>
+				<figure class="logoFigure"><img src="images/weatherLogo.png"></figure>
+				<h1>World Weather Channel</h1>	
+			</header> <!-- end header -->
+
+			<nav>
+				<input type="text" id="cityOrCountryName" value="" placeholder="Enter the city or country name ">
+				<button onclick="loadWeather()"><i class="fas fa-search"></i></button>
+			</nav> <!-- end nav -->
+
+			<main>
+				<section id="left">
+					<div id="location">City, Country</div>
+					<div id="weather">Current Conditions</div>
+					<div id="temperature">00 &#176 C</div>
+				</section>
+
+				<section id="right">
+					<div>
+						<span id="r1c1" class="days"></span>
+						<span><img id="r1c2"></span>
+						<span id="r1c3" class="avgTemp"></span>
+						<span id=r1c4></span>
+					</div>
+					<div>
+						<span id="r2c1" class="days"></span>
+						<span><img id="r2c2"></span>
+						<span id="r2c3" class="avgTemp"></span>
+						<span id=r2c4></span>
+					</div>
+					<div>
+						<span id="r3c1" class="days"></span>
+						<span><img id="r3c2"></span>
+						<span id="r3c3" class="avgTemp"></span>
+						<span id=r3c4></span>
+					</div>
+				</section>
+			</main> <!-- end main -->
+			
+			<footer>
+				<small>2018 &copy Nirmala Halappa</small>
+			</footer> <!-- end footer -->
+
+		</div> <!-- end wrapper -->
+        </div><!-- end imageContainer -->
+
+		<!-- SCRIPTS -->
+		<script type="text/javascript" src="JS/main.js"></script>
+
+	</body>
+
+</html>
